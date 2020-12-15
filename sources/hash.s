@@ -27,15 +27,15 @@ _Z4hashPKc:
 ###
 ### pourquoi 19?
 ###
-        xor rax,rax
+        xor rbx,rbx
 .LFB00:	
 	cmp byte ptr[rdi],0
 	jz .LFB01
 
 	
-	ror rax,19		
-	not rax
-	add rax,[rdi]
+	ror rbx,19		
+	not rbx
+	add rbx,[rdi]
 	inc rdi
 
 	jmp .LFB00
