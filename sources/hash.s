@@ -33,8 +33,8 @@ _Z4hashPKc:
 	jz .LFB01
 
 	
-	ror rbx,19		
-	not rbx
+	ror rax,19		
+	not rax
 	add rbx,[rdi]
 	inc rdi
 
